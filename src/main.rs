@@ -15,6 +15,7 @@ fn main() -> io::Result<()> {
     write!(file, "{}", date_str)?; // Write date to file
 
     let recipient_address = r#"
+
 Recipient Name
 Recipient Address
 Recipient City, State Zip Code
